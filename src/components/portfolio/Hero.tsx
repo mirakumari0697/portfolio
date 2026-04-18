@@ -1,12 +1,8 @@
 import { Download, Mail, MapPin, ArrowRight } from "lucide-react";
 import { profile } from "@/data/profile";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export default function Hero() {
-  const initials = profile.name
-    .split(" ")
-    .map((n) => n[0])
-    .join("");
-
   return (
     <section
       id="home"
@@ -75,12 +71,14 @@ export default function Hero() {
                 aria-hidden
                 className="absolute -inset-4 rounded-full gradient-accent opacity-20 blur-2xl"
               />
-              {/* TODO: Replace with <img src="/your-photo.jpg" /> */}
-              <div className="relative h-56 w-56 sm:h-72 sm:w-72 rounded-full border-4 border-background shadow-glow grid place-items-center bg-gradient-to-br from-primary-foreground to-accent">
-                <span className="font-display text-6xl sm:text-7xl font-bold text-primary">
-                  {initials}
-                </span>
-              </div>
+              {/* TODO: Replace src/assets/profile-photo.jpg with your real photo */}
+              <img
+                src={profilePhoto}
+                alt={`${profile.name} — ${profile.role}`}
+                width={288}
+                height={288}
+                className="relative h-56 w-56 sm:h-72 sm:w-72 rounded-full border-4 border-background shadow-glow object-cover"
+              />
               <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-background border border-border px-4 py-1.5 text-xs font-semibold shadow-elegant whitespace-nowrap">
                 🔐 Network Security Engineer
               </div>
