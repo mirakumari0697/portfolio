@@ -3,20 +3,20 @@ export const profile = {
   name: "Mira Kumari",
   role: "Network Security Engineer",
   tagline:
-    "5.4+ years securing enterprise networks across Infosys, Accenture & LTIMindtree.",
+    "6+ years securing enterprise networks across Infosys, Accenture & LTIMindtree.",
   summary:
-    "Results-oriented Network Security Engineer with over 5.4 years of experience across major MNCs like Infosys, Accenture, and LTIMindtree. Proven expertise in configuring and troubleshooting Palo Alto and Checkpoint Firewalls, Zscaler (ZIA), and Citrix Netscaler Load Balancers. Skilled in SSL certificate management, IOS upgrades, and handling critical security incidents. Strong background in Routing, Switching, and EIP management.",
+    "Results-oriented Network Security Engineer with over 6+ years of experience across major MNCs like Infosys, Accenture, and LTIMindtree. Proven expertise in configuring and troubleshooting Palo Alto and Checkpoint Firewalls, Zscaler (ZIA), and Citrix Netscaler Load Balancers. Skilled in SSL certificate management, IOS upgrades, and handling critical security incidents. Strong background in Routing, Switching, and EIP management.",
   // TODO: Replace these placeholders with your real contact details.
-  email: "your.email@example.com",
-  phone: "+91 00000 00000",
-  linkedin: "https://www.linkedin.com/in/your-handle",
-  github: "https://github.com/your-handle",
-  location: "Pune / Bengaluru, India",
+  email: "mira.kumari0697@gmail.com",
+  phone: "+91 9175220905",
+  linkedin: "https://www.linkedin.com/in/mira-kumari-9b1841193",
+  github: "https://github.com/mirakumari0697",
+  location: "Pune, India",
   resumeUrl: "/Mira_Kumari_Resume.pdf",
 };
 
 export const stats = [
-  { value: "5.4+", label: "Years Experience" },
+  { value: "6+", label: "Years Experience" },
   { value: "3", label: "Global MNCs" },
   { value: "5,000+", label: "Users Migrated to Zscaler" },
   { value: "40%", label: "Fewer SSL Incidents" },
