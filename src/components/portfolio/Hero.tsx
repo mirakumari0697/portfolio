@@ -1,6 +1,6 @@
 import { Download, Mail, MapPin, ArrowRight } from "lucide-react";
 import { profile } from "@/data/profile";
-import profilePhoto from "@/assets/profile-photo.jpeg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export default function Hero() {
   return (
