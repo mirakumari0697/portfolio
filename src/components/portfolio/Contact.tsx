@@ -1,5 +1,6 @@
 import { Mail, Phone, Linkedin, Github, Download } from "lucide-react";
 import { profile } from "@/data/profile";
+import resumepdf from "@/assets/Resume_mira.pdf";
 
 export default function Contact() {
   return (
@@ -54,8 +55,8 @@ export default function Contact() {
               GitHub
             </a>
             <a
-              href={profile.resumeUrl}
-              download
+              href={resumepdf}
+              download="Resume_Mira.pdf"
               className="inline-flex h-10 items-center gap-2 rounded-md border border-border bg-background px-4 text-sm font-medium hover:bg-muted transition-colors"
             >
               <Download className="h-4 w-4 text-primary" />
