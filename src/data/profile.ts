@@ -1,12 +1,11 @@
 // Centralized profile data — edit values here to update the whole site.
 export const profile = {
   name: "Mira Kumari",
-  role: "Network Security Engineer",
+  role: "Network Security Engineer | Cyber Security Engineer",
   tagline:
-    "6+ years securing enterprise networks across Infosys, Accenture & LTIMindtree.",
+    "7 years of experience in Network Security and Cyber Security across enterprise and OT environments.",
   summary:
-    "Results-oriented Network Security Engineer with over 6+ years of experience across major MNCs like Infosys, Accenture, and LTIMindtree. Proven expertise in configuring and troubleshooting Palo Alto and Checkpoint Firewalls, Zscaler (ZIA), and Citrix Netscaler Load Balancers. Skilled in SSL certificate management, IOS upgrades, and handling critical security incidents. Strong background in Routing, Switching, and EIP management.",
-  // TODO: Replace these placeholders with your real contact details.
+    "Network Security and Cyber Security Engineer with 7 years of experience supporting enterprise and OT network environments across Infosys, Accenture, and LTIMindtree. Hands-on experience with Palo Alto Firewall, Check Point Firewall, Zscaler ZIA, Cisco ISE, Illumio, Cisco ASA, Cisco DNA Center (DNAC), switching, and routing. Experienced in cybersecurity operations, firewall rule and security policy management, Illumio micro-segmentation, SLA-based ticket management, P1 incident support, cybersecurity troubleshooting, firewall upgrades, certificate renewals, security patching, log analysis, and change management.",
   email: "mira.kumari0697@gmail.com",
   phone: "+91 9175220905",
   linkedin: "https://www.linkedin.com/in/mira-kumari-9b1841193",
@@ -16,118 +15,158 @@ export const profile = {
 };
 
 export const stats = [
-  { value: "6+", label: "Years Experience" },
+  { value: "7", label: "Years Experience" },
   { value: "3", label: "Global MNCs" },
-  { value: "5,000+", label: "Users Migrated to Zscaler" },
-  { value: "40%", label: "Fewer SSL Incidents" },
+  { value: "100+", label: "Devices Upgraded via DNAC" },
+  { value: "50+", label: "Firewall Rules / Month" },
 ];
 
 export const skillCategories = [
   {
-    title: "Security & Firewalls",
+    title: "Cyber Security & Firewalls",
     items: [
-      "Palo Alto (GlobalProtect, Panorama)",
-      "Checkpoint (SmartConsole)",
+      "Palo Alto Firewall",
+      "Check Point Firewall",
       "Cisco ASA",
-      "Fortigate",
+      "Cisco ISE",
+      "Illumio Micro-segmentation",
+      "Security Policy Management",
+      "Cybersecurity Troubleshooting",
     ],
   },
   {
     title: "Cloud & Web Security",
     items: [
-      "Zscaler ZIA Implementation",
-      "URL / Cloud App Filtration",
-      "Threat Protection",
+      "Zscaler ZIA",
+      "URL Filtering",
+      "Cloud App Control",
+      "Security Policy Management",
+      "Security Troubleshooting",
     ],
   },
   {
     title: "Load Balancing",
     items: [
-      "Citrix Netscaler ADC",
-      "SSL Offloading",
+      "NetScaler Load Balancer",
       "Certificate Management",
-      "GSLB",
+      "SSL Offloading",
     ],
   },
   {
-    title: "Network Services",
-    items: ["Efficient IP (EIP)", "Infoblox DNS / DHCP", "IPAM"],
+    title: "Network Management",
+    items: [
+      "Cisco DNA Center (DNAC)",
+      "Cisco Catalyst Center",
+      "Network Configuration",
+      "Network Design",
+    ],
   },
   {
     title: "Routing & Infrastructure",
-    items: ["Cisco Routing & Switching", "IPSEC VPN", "SSL VPN", "BGP", "OSPF"],
+    items: [
+      "Switching",
+      "Routing",
+      "LAN",
+      "WAN",
+      "Network Troubleshooting",
+    ],
+  },
+  {
+    title: "Cyber Security Operations",
+    items: [
+      "SLA-based Ticket Management",
+      "P1 Incident Support",
+      "Security Incident Troubleshooting",
+      "Security Patching",
+      "Hotfixes",
+      "Service Packs",
+      "Certificate Renewal",
+      "Log Analysis",
+      "Change Management",
+      "CAB",
+      "Vendor Management",
+    ],
   },
 ];
 
 export const proficiencies = [
   { name: "Palo Alto Firewalls", level: 92 },
   { name: "Zscaler (ZIA)", level: 90 },
-  { name: "Checkpoint Firewalls", level: 85 },
-  { name: "Citrix Netscaler ADC", level: 82 },
-  { name: "Cisco Routing & Switching", level: 80 },
+  { name: "Check Point Firewalls", level: 88 },
+  { name: "Illumio Micro-segmentation", level: 82 },
+  { name: "Cisco DNA Center (DNAC)", level: 80 },
 ];
 
 export const experience = [
   {
     company: "Infosys",
-    role: "Cyber Security Engineer",
+    role: "Network Security Engineer | Cyber Security Engineer",
     period: "Feb 2025 – Present",
-    location: "Pune / Bengaluru",
+    location: "Pune, India",
     points: [
-      "Managing enterprise-level security operations for global clients with focus on Palo Alto and Zscaler environments.",
-      "Configuring security policies, threat prevention and high-availability (HA) clusters.",
-      "Leading incident response for critical network security threats and firewall performance issues.",
+      "Support enterprise and OT network environments as part of Network Security and Cyber Security operations using Palo Alto Firewall, Zscaler ZIA, Cisco ISE, Illumio, switching, routing, and Cisco Catalyst Center.",
+      "Create and review approximately 50+ firewall rules per month, ensuring network access requirements and security policies are followed, and investigate and resolve cybersecurity-related network issues.",
+      "Manage SLA-based Cyber Security tickets including P1 incidents, supporting approximately 2–3 P1 incidents per week through troubleshooting and resolution.",
+      "Work with Illumio micro-segmentation, including policy creation for server-to-server connections, log analysis, and troubleshooting of segmentation-related security issues.",
+      "Perform Palo Alto Firewall upgrades based on reported vulnerabilities and end-of-life requirements, and manage firewall certificate renewals end-to-end including CSR generation, coordination, installation, and validation.",
+      "Upgrade 100+ devices through Cisco DNAC and approximately 50–70 devices manually; implement security patches, hotfixes, and service packs and maintain related security documentation.",
+      "Train new employees on information security policies and appropriate use of company resources.",
     ],
   },
   {
     company: "Accenture",
-    role: "Network Security Engineer",
+    role: "Network Engineer",
     period: "Oct 2022 – Feb 2025",
-    location: "Bengaluru",
+    location: "Bengaluru, India",
     points: [
-      "Spearheaded end-to-end Zscaler-ZIA implementation including URL / Cloud App filtration.",
-      "Managed SSL certificate renewals across multiple firewalls and Citrix Netscaler load balancers.",
-      "Executed critical Cisco IOS switch upgrades and firmware migrations for WLC and Netscaler.",
+      "Supported Network Security and Cyber Security operations using Zscaler ZIA and Check Point Firewall, handling approximately 10–15 Zscaler troubleshooting tasks per week.",
+      "Upgraded the Check Point management console from R81.10 to R81.20 and performed upgrades on approximately 10 Check Point firewalls; also performed IOS and network infrastructure upgrades.",
+      "Supported approximately 2–3 P1 incidents per week, participating in troubleshooting calls and coordinating Cyber Security incident resolution.",
+      "Managed firewall certificate renewals based on expiry requirements and resolved network security violations while following established security procedures.",
+      "Analyzed network logs for outages, configuration errors, and security alerts; reviewed and updated network configurations and settings to support network security and reliability.",
+      "Presented critical network changes during CAB reviews, managed switches, routers, and firewalls, provided end-user network support, and documented incidents, security changes, and troubleshooting activities.",
     ],
   },
   {
     company: "LTIMindtree",
-    role: "Network Engineer",
+    role: "Network Analyst",
     period: "Sep 2019 – Sep 2022",
-    location: "Chennai",
+    location: "Chennai, India",
     points: [
-      "Administered Cisco ASA, Fortigate and Checkpoint firewalls for a major banking project.",
-      "Assisted in large-scale firewall hardware refresh and SmartConsole management upgrades.",
-      "Monitored network traffic and managed DNS / DHCP records via the Efficient IP (EIP) portal.",
+      "Resolved approximately 10 VPN-related issues per day on Cisco ASA firewalls and supported firewall, VPN, and security rule maintenance activities.",
+      "Troubleshot LAN and WAN connectivity issues and coordinated with vendor support for circuit-related issues and repairs to restore secure network connectivity.",
+      "Used Cisco ASA and Cisco ISE to support network access control and user access management.",
+      "Implemented and supported firewalls and VPNs as part of network security and cybersecurity operations.",
+      "Worked on NetScaler load balancer configuration and related network security support activities.",
     ],
   },
 ];
 
 export const projects = [
   {
-    title: "Zscaler Transformation",
-    impact: "5,000+ users migrated",
+    title: "Firewall Rule Management",
+    impact: "50+ rules / month",
     description:
-      "Successfully migrated 5,000+ users to Zscaler ZIA, improving security posture and reducing latency across global offices.",
+      "Create and review 50+ firewall rules per month while ensuring network access requirements and security policies are followed as part of enterprise Cyber Security operations.",
   },
   {
-    title: "SSL Certificate Automation",
-    impact: "40% fewer expired-cert incidents",
+    title: "Cisco DNAC Device Upgrades",
+    impact: "100+ devices via DNAC",
     description:
-      "Streamlined SSL certificate tracking and renewal workflows, dramatically reducing outage-causing certificate expirations.",
+      "Upgraded 100+ devices through Cisco DNAC and approximately 50–70 devices manually as part of network infrastructure and Cyber Security operations.",
   },
   {
-    title: "ASA → Palo Alto Migration",
-    impact: "Zero-downtime cutover",
+    title: "Illumio Micro-segmentation",
+    impact: "Server-to-server policies",
     description:
-      "Managed the seamless transition of legacy Cisco ASA policies to Palo Alto Next-Generation Firewalls with full policy parity.",
+      "Created Illumio micro-segmentation policies for server-to-server connections, performed log analysis, and troubleshot segmentation-related security issues.",
   },
 ];
 
 export const education = {
   degree: "B.Tech, Computer Science & Engineering",
-  school: "Bengal College of Engineering & Technologies, Durgapur",
-  period: "2015 – 2019",
+  school: "Bengal College of Engineering, Durgapur, West Bengal",
+  period: "2019",
 };
 
 export const certifications = [
