@@ -1,6 +1,7 @@
 import { Download, Mail, MapPin, ArrowRight } from "lucide-react";
 import { profile } from "@/data/profile";
 import profilePhoto from "@/assets/profile-photo.jpg";
+import resumepdf from "@/assets/Resume_mira.pdf";
 
 export default function Hero() {
   return (
@@ -46,8 +47,8 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href={profile.resumeUrl}
-                download
+                href={resumepdf}
+                download="Resume_Mira.pdf"
                 className="inline-flex h-11 items-center gap-2 rounded-md bg-primary px-5 text-sm font-semibold text-primary-foreground shadow-elegant hover:shadow-glow hover:-translate-y-0.5 transition-all"
               >
                 <Download className="h-4 w-4" />
