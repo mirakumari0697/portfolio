@@ -11,7 +11,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/mira-kumari-9b1841193",
   github: "https://github.com/mirakumari0697",
   location: "Pune, India",
-  resumeUrl: "/portfolio/assets/Resume_mira.pdf",
+  resumeUrl: "/Resume_mira.pdf",
 };
 
 export const stats = [
